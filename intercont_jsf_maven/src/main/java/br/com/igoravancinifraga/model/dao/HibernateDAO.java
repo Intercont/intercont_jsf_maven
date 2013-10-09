@@ -15,7 +15,7 @@ public class HibernateDAO<T> implements InterfaceDAO<T>,Serializable
     private Class<T> classe;
     private Session session;
     
-    //construtor - 
+    //construtor - certo
     //ao se criar uma instancia desta classe,
     //obrigaremos que seja passado a classe na qual será construido um DAO e a sessao do Hibernate
 
